@@ -23,6 +23,15 @@ class Mobile:Bill{
         self.internetUsed = internetUsed
         self.minutesUsed = minutesUsed
     }
+    override func display() {
+        super.display()
+        print("Manufactuer Name : \(mobileManufacturer)")
+        print("Plan Name: \(plan)")
+        print("Mobile Number: \(mobileNum)")
+        print("Internet Used: \(internetUsed)")
+        print("Minutes Used: \(minutesUsed)")
+        
+    }
     
     
 }
