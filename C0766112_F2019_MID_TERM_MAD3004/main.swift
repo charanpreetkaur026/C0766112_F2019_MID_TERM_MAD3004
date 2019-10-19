@@ -18,13 +18,19 @@ var cust3 = Customer(customerId: 5006, firstName: "sachin", lastName: "Sharma", 
 
 
 var custDictionary = [Int: Customer]()
-custDictionary.updateValue(cust1, forKey: 1)
-custDictionary.updateValue(cust3, forKey: 2)
-
-for cust in custDictionary.keys{
-    
-    custDictionary[cust]?.display()
+func addCustomer(cust: Customer){
+custDictionary.updateValue(cust, forKey: cust.customerId)
+//custDictionary.updateValue(cust3, forKey: 2)
 }
+addCustomer(cust: cust1)
+addCustomer(cust: cust3)
+addCustomer(cust: cust2)
+
+for c in custDictionary.keys{
+
+    custDictionary[c]?.display()
+}
+
 
 
 
