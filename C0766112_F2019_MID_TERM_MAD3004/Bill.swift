@@ -11,7 +11,7 @@ class Bill: IDisplay
 {
     
     var billId: Int
-    var billDate = Date()
+    var billDate = String
     var billType: TypeofBills
     enum TypeofBills{
         case Internet
@@ -21,7 +21,7 @@ class Bill: IDisplay
     var billAmount: Float
     
     
-    init(billId: Int, billDate: Date(), billType: TypeofBills, billAmount: Float) {
+    init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float) {
         self.billId = billId
         self.billDate = billDate
         self.billAmount  = billAmount
