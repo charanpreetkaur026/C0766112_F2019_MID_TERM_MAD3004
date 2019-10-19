@@ -29,8 +29,8 @@ class Mobile:Bill{
         print("Manufactuer Name : \(mobileManufacturer)")
         print("Plan Name: \(plan)")
         print("Mobile Number: \(mobileNum)")
-        print("Internet Used: \(internetUsed)")
-        print("Minutes Used: \(minutesUsed)")
+        print("Internet Used: \(internetUsed.conactGB())")
+        print("Minutes Used: \(minutesUsed.concatMin())")
         
     }
     

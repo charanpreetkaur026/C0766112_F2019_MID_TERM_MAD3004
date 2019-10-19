@@ -18,6 +18,7 @@ class Customer: IDisplay{
         }
     }
     var emailId: String
+    var totalBillAmount: Float = 0.0
     
     var billDictionary = [Int:Bill]()
     
@@ -30,21 +31,20 @@ class Customer: IDisplay{
         self.firstName = firstName
         self.lastName = lastName
         self.emailId = emailId
-        
-    }
+        }
    
     func addBillToCustomer(b:Bill){
         billDictionary.updateValue(b, forKey: b.billId)
     }
     
-    func calcTotalBillAmount()
+    func calcTotalBillAmount() -> Float
     {
-         var totalBillAmount = 0
+        //totalBillAmount = 0
         for i in billDictionary.values
         {
             totalBillAmount += i.billAmount
         }
-        return totalBillAmount
+        return Float(totalBillAmount)
     }
     
     func display() {
@@ -69,7 +69,7 @@ class Customer: IDisplay{
             {
                 b.display()
                 print("########################################")
-                print("Total Bill Amount to Pay: ")
+                print("Total Bill Amount to Pay: \(calcTotalBillAmount())")
                 print("########################################")
                 
             }

@@ -14,6 +14,7 @@
 		9BEC2E07235BBD92007CC522 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E06235BBD92007CC522 /* Mobile.swift */; };
 		9BEC2E09235BC178007CC522 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E08235BC178007CC522 /* Hydro.swift */; };
 		9BEC2E0B235BC294007CC522 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E0A235BC294007CC522 /* Customer.swift */; };
+		9BEC2E0F235BD4B9007CC522 /* extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		9BEC2E06235BBD92007CC522 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9BEC2E08235BC178007CC522 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BEC2E0A235BC294007CC522 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Int.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				9BEC2E06235BBD92007CC522 /* Mobile.swift */,
 				9BEC2E08235BC178007CC522 /* Hydro.swift */,
 				9BEC2E0A235BC294007CC522 /* Customer.swift */,
+				9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */,
 			);
 			path = C0766112_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				9B7FB28F235A9871003AD4BC /* main.swift in Sources */,
 				9BEC2E05235BBC97007CC522 /* Internet.swift in Sources */,
 				9BEC2E09235BC178007CC522 /* Hydro.swift in Sources */,
+				9BEC2E0F235BD4B9007CC522 /* extension+Int.swift in Sources */,
 				9BEC2E03235BBC3E007CC522 /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
