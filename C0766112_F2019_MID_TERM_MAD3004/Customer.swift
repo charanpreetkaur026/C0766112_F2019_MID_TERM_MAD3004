@@ -35,8 +35,26 @@ class Customer: IDisplay{
         // print("Customer ID: \(customerId)")
         
         print("**************************************")
+        print("------BILL INFORMATION---------")
+        if billDictionary.isEmpty
+        {
+            print(" This Customer has no Bills to pay")
+        }
+        else
+        {
+            
+            for b in billDictionary.values
+                
+            {
+                
+                
+                b.display()
+                print("**********************************")
+                
+            }
         
     }
     
     
+}
 }
