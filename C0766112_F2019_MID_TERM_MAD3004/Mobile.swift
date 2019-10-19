@@ -16,12 +16,13 @@ class Mobile:Bill{
     var minutesUsed: Int
     
     init(billId: Int, billDate: String , billType: TypeofBills, billAmount: Float, mobileManufacturer: String,plan: String, mobileNum: Int,internetUsed: Int, minutesUsed: Int) {
-        super.init(billId: Int, billDate:String, billType: Bill.TypeofBills, billAmount: Float)
+        
         self.mobileManufacturer = mobileManufacturer
         self.plan = plan
         self.mobileNum = mobileNum
         self.internetUsed = internetUsed
         self.minutesUsed = minutesUsed
+        super.init(billId: billId, billDate:billDate, billType: billType, billAmount: billAmount)
     }
     override func display() {
         super.display()

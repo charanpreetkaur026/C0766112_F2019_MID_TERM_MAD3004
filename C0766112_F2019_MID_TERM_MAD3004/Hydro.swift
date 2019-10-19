@@ -12,10 +12,11 @@ class Hydro: Bill{
     var agency:String
     var unitsConsumed: Int
    init(billId: Int, billDate:String, billType:Bill.TypeofBills, billAmount: Float, agency:String, unitsConsumed: Int) {
-        super.init(billId: Int, billDate: String, billType: Bill.TypeofBills
-            , billAmount: Float)
+    
         self.agency = agency
         self.unitsConsumed = unitsConsumed
+    super.init(billId: billId, billDate: billDate, billType: billType
+        , billAmount: billAmount)
         
     }
     override func display() {

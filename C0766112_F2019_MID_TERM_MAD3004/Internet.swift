@@ -13,10 +13,10 @@ class Internet: Bill{
     var internetUsed: Int
     init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float, providerName: String,internetUsed: Int )
     {
-        super.init(billId: Int, billDate: Date, billType: Bill.TypeofBills, billAmount: Float)
-        
+
         self.providerName = providerName
         self.internetUsed = internetUsed
+        super.init(billId: billId, billDate: billDate, billType: billType, billAmount: billAmount)
     }
     
     override func display() {

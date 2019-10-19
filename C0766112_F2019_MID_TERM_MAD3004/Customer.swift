@@ -19,6 +19,11 @@ class Customer: IDisplay{
     }
     var emailId: String
     
+    var billDictionary = [Int:Bill]()
+    
+    //billDictionary.updateValue(Bill, forKey: billId )
+
+    
     
     init(customerId: Int, firstName: String, lastName: String ,  emailId: String) {
         self.customerId = customerId
@@ -27,34 +32,50 @@ class Customer: IDisplay{
         self.emailId = emailId
         
     }
+   
+    func addBillToCustomer(b:Bill){
+        billDictionary.updateValue(b, forKey: b.billId)
+    }
+    
+    func calcTotalBillAmount()
+    {
+         var totalBillAmount = 0
+        for i in billDictionary.values
+        {
+            totalBillAmount += i.billAmount
+        }
+        return totalBillAmount
+    }
     
     func display() {
+        print("\t")
+         print("------CUSTOMER INFORMATION---------")
         print("Customer ID: \(customerId)")
          print("Customer Name: \(fullName)")
          print("Email Id: \(emailId)")
         // print("Customer ID: \(customerId)")
         
-        print("**************************************")
+       
         print("------BILL INFORMATION---------")
+        print("#########################################")
         if billDictionary.isEmpty
         {
             print(" This Customer has no Bills to pay")
         }
         else
         {
-            
             for b in billDictionary.values
                 
             {
-                
-                
                 b.display()
-                print("**********************************")
+                print("########################################")
+                print("Total Bill Amount to Pay: ")
+                print("########################################")
                 
             }
         
     }
     
-    
+     
 }
 }

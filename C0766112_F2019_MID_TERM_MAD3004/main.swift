@@ -16,6 +16,12 @@ var cust1 = Customer(customerId: 5002, firstName: "Charan", lastName: "Kaur", em
 var cust2 = Customer(customerId: 5003, firstName: "Preet", lastName: "Sikka", emailId: "preetsikka321@gmail.com")
 var cust3 = Customer(customerId: 5006, firstName: "sachin", lastName: "Sharma", emailId: "sachinsharma523@gmail.com")
 
+cust1.addBillToCustomer(b: bill2)
+cust2.addBillToCustomer(b: bill3)
+cust1.addBillToCustomer(b: bill1)
+
+
+
 
 var custDictionary = [Int: Customer]()
 func addCustomer(cust: Customer){
