@@ -11,7 +11,7 @@ class Internet: Bill{
     
     var providerName: String
     var internetUsed: Int
-    init(billId: Int, billDate: Date(), billType: TypeofBills, billAmount: Float)
+    init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float, providerName: String,internetUsed: Int )
     {
         super.init(billId: Int, billDate: Date, billType: Bill.TypeofBills, billAmount: Float)
         
