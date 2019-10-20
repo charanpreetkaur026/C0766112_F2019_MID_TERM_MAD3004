@@ -13,7 +13,8 @@ class Internet: Bill{
     var internetUsed: Int
     init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float, providerName: String,internetUsed: Int )
     {
-
+        
+    
         self.providerName = providerName
         self.internetUsed = internetUsed
         super.init(billId: billId, billDate: billDate, billType: billType, billAmount: billAmount)

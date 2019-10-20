@@ -32,7 +32,7 @@ addCustomer(cust: cust1)
 addCustomer(cust: cust3)
 addCustomer(cust: cust2)
 func getByCustomerId(customerId: Int){
-    print("\n ~~~~~~~~~~~~~ GETTING DETAILS BY CUSTOMER ID~~~~~~~~~~~~~~~~\n ")
+    print("\n ~~~~~~~~~~~~~ GETTING DETAILS BY CUSTOMER ID~~~~~~~~~~~~~~~~")
     if custDictionary.keys.contains(customerId)
     {
         custDictionary[customerId]?.display()
