@@ -11,7 +11,7 @@ import Foundation
     
     var agency:String
     var unitsConsumed: Int
-   init(billId: Int, billDate:String, billType:Bill.TypeofBills, billAmount: Float, agency:String, unitsConsumed: Int) {
+    init(billId: Int, billDate:String, billType:Bill.TypeofBills, billAmount: Float, agency:String, unitsConsumed: Int) {
     
         self.agency = agency
         self.unitsConsumed = unitsConsumed
