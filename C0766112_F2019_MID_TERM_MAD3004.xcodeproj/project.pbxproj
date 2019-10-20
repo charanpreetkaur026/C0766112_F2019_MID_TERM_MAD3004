@@ -15,6 +15,7 @@
 		9BEC2E09235BC178007CC522 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E08235BC178007CC522 /* Hydro.swift */; };
 		9BEC2E0B235BC294007CC522 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E0A235BC294007CC522 /* Customer.swift */; };
 		9BEC2E0F235BD4B9007CC522 /* extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */; };
+		9BEC2E11235BD621007CC522 /* extension+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC2E10235BD621007CC522 /* extension+Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9BEC2E08235BC178007CC522 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BEC2E0A235BC294007CC522 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Int.swift"; sourceTree = "<group>"; };
+		9BEC2E10235BD621007CC522 /* extension+Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Currency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				9BEC2E08235BC178007CC522 /* Hydro.swift */,
 				9BEC2E0A235BC294007CC522 /* Customer.swift */,
 				9BEC2E0E235BD4B9007CC522 /* extension+Int.swift */,
+				9BEC2E10235BD621007CC522 /* extension+Currency.swift */,
 			);
 			path = C0766112_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				9BEC2E05235BBC97007CC522 /* Internet.swift in Sources */,
 				9BEC2E09235BC178007CC522 /* Hydro.swift in Sources */,
 				9BEC2E0F235BD4B9007CC522 /* extension+Int.swift in Sources */,
+				9BEC2E11235BD621007CC522 /* extension+Currency.swift in Sources */,
 				9BEC2E03235BBC3E007CC522 /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

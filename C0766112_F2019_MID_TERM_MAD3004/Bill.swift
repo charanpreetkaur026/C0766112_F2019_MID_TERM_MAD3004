@@ -32,7 +32,7 @@ class Bill: IDisplay
         print("Bill ID: \(billId)")
         print("Bill Date: \(billDate)")
         print("Bill Type: \(billType)")
-        print("Bill Amount: \(billAmount)")
+        print("Bill Amount: \(billAmount.currencyFormat())")
     }
     
 }

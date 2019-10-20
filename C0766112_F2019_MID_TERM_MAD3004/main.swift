@@ -31,11 +31,20 @@ custDictionary.updateValue(cust, forKey: cust.customerId)
 addCustomer(cust: cust1)
 addCustomer(cust: cust3)
 addCustomer(cust: cust2)
-
-for c in custDictionary.keys{
+func getByCustomerId(customerId: Int){
+    if custDictionary.keys.contains(customerId)
+    {
+        custDictionary[customerId]?.display()
+    }else{
+        print("This Customer not found")
+    }
+    
+}
+for c in custDictionary.keys.sorted(){
 
     custDictionary[c]?.display()
 }
+var g1 = getByCustomerId(customerId: 5002)// function calling to get details by passing customer ID
 
 
 

@@ -57,7 +57,7 @@ class Customer: IDisplay{
         
        
         print("------BILL INFORMATION---------")
-        print("#########################################")
+        print("*********************************************")
         if billDictionary.isEmpty
         {
             print(" This Customer has no Bills to pay")
@@ -68,11 +68,11 @@ class Customer: IDisplay{
                 
             {
                 b.display()
-                print("########################################")
-                print("Total Bill Amount to Pay: \(calcTotalBillAmount())")
-                print("########################################")
+                print("*****************************************")
                 
             }
+            print("Total Bill Amount to Pay: \(calcTotalBillAmount().currencyFormat())")
+            print("########################################")
         
     }
     
