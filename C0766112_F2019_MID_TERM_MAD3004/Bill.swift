@@ -10,10 +10,10 @@ import Foundation
  class Bill: IDisplay
 {
     
-    var billId: Int
-    var billDate = String()
-    var billType: TypeofBills
-    enum TypeofBills{
+     var billId: Int
+     var billDate = String()
+     var billType: TypeofBills
+     enum TypeofBills{
         case Internet
         case Hydro
         case Mobile
