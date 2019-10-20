@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Hydro: Bill{
+ class Hydro: Bill{
     
     var agency:String
     var unitsConsumed: Int
