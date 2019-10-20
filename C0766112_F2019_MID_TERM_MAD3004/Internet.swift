@@ -10,7 +10,7 @@ import Foundation
 class Internet: Bill{
     
       var providerName: String
-    var internetUsed: Int
+      var internetUsed: Int
      init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float, providerName: String,internetUsed: Int )
     {
         
