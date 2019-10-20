@@ -8,11 +8,11 @@
 
 import Foundation
 extension Int{
-    func concatUnits()->String
+     func concatUnits()->String
     {
         return "\(self) Units"
     }
-    func conactGB() ->String
+     func conactGB() ->String
     {
         return " \(self) GB"
     }
