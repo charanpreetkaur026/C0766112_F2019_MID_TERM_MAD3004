@@ -37,7 +37,7 @@ class Customer: IDisplay{
         billDictionary.updateValue(b, forKey: b.billId)
     }
     
-     func calcTotalBillAmount() -> Float
+      func calcTotalBillAmount() -> Float
     {
         //totalBillAmount = 0
         for i in billDictionary.values
