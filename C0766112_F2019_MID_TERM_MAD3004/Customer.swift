@@ -47,7 +47,7 @@ class Customer: IDisplay{
         return Float(totalBillAmount)
     }
     
-     func display() {
+      func display() {
         print("\t")
          print("------CUSTOMER INFORMATION---------")
         print("Customer ID: \(customerId)")
