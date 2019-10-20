@@ -8,17 +8,17 @@
 
 import Foundation
 //extension Date{
-//    
+//
 //    func formatDate(billDate: String) -> String {
-//        //https://nsscreencast.com/episodes/367-dates-and-times
-//        
+//         //https://nsscreencast.com/episodes/367-dates-and-times
+//
 //              let input = billDate
 ////                let formatter = DateFormatter()
 ////                formatter.dateFormat = "MM/dd/yyyy"
 ////                if let date = formatter.date(from: input) {
 ////                return String(date)  // Prints:  2018-12-10 06:00:00 +0000
 ////        }
-//        
+//
 ////        let formatter = DateFormatter()
 ////        formatter.locale = Locale(identifier: "en_US_POSIX")
 ////        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
