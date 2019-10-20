@@ -21,7 +21,7 @@ class Bill: IDisplay
     var billAmount: Float
     
     
-    init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float) {
+     init(billId: Int, billDate: String, billType: TypeofBills, billAmount: Float) {
         self.billId = billId
         self.billDate = billDate
         self.billAmount  = billAmount
