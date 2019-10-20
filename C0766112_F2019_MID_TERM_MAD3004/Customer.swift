@@ -33,7 +33,7 @@ class Customer: IDisplay{
         self.emailId = emailId
         }
    
-     func addBillToCustomer(b:Bill){
+      func addBillToCustomer(b:Bill){
         billDictionary.updateValue(b, forKey: b.billId)
     }
     
